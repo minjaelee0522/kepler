@@ -27,5 +27,5 @@ Answer: There was no missing value, the most important part of the EDA process. 
 
 4. An explanation for why you chose this model
 
-Answer: I selected multiple linear regression method because it can be used to capture important relationships between the forecast variable of interest and the predictor variables. Unfortunately, as a result, LinearRegression() produced the best results. Ridge is known to be the best solution for multicollinearity, so I expected it, but it didn't make much of a difference. It seems that there was a lack in EDA and data preprocessing process. After submission, I will review it carefully again without giving up.
+Answer: I selected multiple linear regression method because it can be used to capture important relationships between the forecast variable of interest and the predictor variables. Unfortunately, as a result, LinearRegression() produced the best results. Ridge is known to be the best solution for multicollinearity and solve overfitting, so I expected it, but it didn't make much of a difference. It seems that there was a lack in EDA and data preprocessing process. After submission, I will review it carefully again without giving up.
 
